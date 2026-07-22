@@ -5,7 +5,7 @@ from pypdf import PdfReader, PdfWriter, PageObject, Transformation
 st.set_page_config(page_title="PDF N-up Grid Generator", layout="centered")
 
 st.title("📄 PDF ギチギチレイアウトツール")
-st.write("PDFファイルをアップロードし、お好みの枚数構成を選択してギチギチに敷き詰めたPDFを生成します。")
+st.write("PDFファイルをアップロード→お好みの枚数構成を選択→ギチギチに敷き詰めたPDF完成✨️")
 
 # --- UI設定項目 ---
 uploaded_file = st.file_uploader("PDFファイルを選択してください", type=["pdf"])
