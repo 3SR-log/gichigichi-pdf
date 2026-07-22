@@ -5,7 +5,8 @@ from pypdf import PdfReader, PdfWriter, PageObject, Transformation
 st.set_page_config(page_title="PDF N-up Grid Generator", layout="centered")
 
 st.title("📄 PDF ギチギチレイアウトツール")
-st.write("PDFファイルをアップロード→お好みの枚数構成を選択→ギチギチに敷き詰めたPDF完成✨️")
+st.write("パワポの印刷機能では余白が多くてカンペが上手く作れない、、、")
+st.write("PDF化したパワポをアップロード→お好みの枚数構成を選択→ギチギチに敷き詰めたPDF完成✨️")
 
 # --- UI設定項目 ---
 uploaded_file = st.file_uploader("PDFファイルを選択してください", type=["pdf"])
